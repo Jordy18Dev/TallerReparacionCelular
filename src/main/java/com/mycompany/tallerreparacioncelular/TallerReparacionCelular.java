@@ -4,6 +4,8 @@
 
 package com.mycompany.tallerreparacioncelular;
 
+import com.mycompany.tallerreparacioncelular.JFames.Inicio;
+
 /**
  *
  * @author jorda
@@ -11,6 +13,9 @@ package com.mycompany.tallerreparacioncelular;
 public class TallerReparacionCelular {
 
     public static void main(String[] args) {
-        System.out.println("Taller reparación celular");
+        java.awt.EventQueue.invokeLater(() -> {
+        new Inicio().setVisible(true);
+    });
+
     }
 }
