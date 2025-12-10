@@ -8,6 +8,6 @@ package com.mycompany.tallerreparacioncelular.entidades;
  *
  * @author jorda
  */
-public class Clientes {
+public class ReparacionEntidad {
     
 }
