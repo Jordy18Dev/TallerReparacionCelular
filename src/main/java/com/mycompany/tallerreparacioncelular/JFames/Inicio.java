@@ -130,7 +130,7 @@ public class Inicio extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        Tecnico tecnico = new Tecnico();
+        TecnicoPanel tecnico = new TecnicoPanel();
         tecnico.setSize(593,817);
         tecnico.setLocation(0,0);
         
